@@ -16,6 +16,7 @@ class Pentagono(Poligono):
 
 class Regular(Pentagono):
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Pentagono regular: cinco lados iguais e 540 graus de soma dos angulos internos"""
     def __init__(self, tamanho):
         super().__init__(5)
@@ -24,6 +25,8 @@ class Regular(Pentagono):
     def perimetro(self):
         return self.lados * self.tamanho
 =======
+=======
+>>>>>>> pentagono
     """Implementação de um pentágono regular"""
 
     def __init__(self, arg):
@@ -34,4 +37,16 @@ class Regular(Pentagono):
         per = self.aresta *self.lados
 
         return per
+<<<<<<< HEAD
 >>>>>>> origin/perimetro_pent_reg_impl2
+=======
+=======
+    """Pentagono regular: cinco lados iguais e 540 graus de soma dos angulos internos"""
+    def __init__(self, tamanho):
+        super().__init__(5)
+        self.tamanho = tamanho
+
+    def perimetro(self):
+        return self.lados * self.tamanho
+>>>>>>> origin/perimetro_pent_reg_impl1
+>>>>>>> pentagono
